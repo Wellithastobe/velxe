@@ -1,0 +1,16 @@
+{
+  "name": "velxe-licence-handle",
+  "version": "1.0.0",
+  "description": "Discord bot for Velxe License handling",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.7"
+  }
+}
